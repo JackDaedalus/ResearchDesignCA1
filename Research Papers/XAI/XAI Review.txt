@@ -1,0 +1,200 @@
+XAI Papers
+
+1. A comparative analysis of rule-based,
+model-agnostic methods for explainable articial
+intelligence
+
+Abstract: High accuracy + explainability: a process that discloses the relationship between input and output. As title suggests this is a 
+comparison on methods for extracting inference rules not explicit within a model.
+
+Conclusion: This study presented a novel approach to evaluate and compare four XAI meth-
+ods which extract rules from black-box machine-learned models, trained via
+vanilla neural networks on eight datasets.
+
+One of the methods, specically
+the C45-Pane, based on a feature splitting algorithm, outperformed the others.
+
+Suggestion: Worth reading in more detail.
+
+
+
+2. A Quantitative Evaluation of Global,
+Rule-Based Explanations of Post-Hoc,
+Model Agnostic Methods
+
+Abstract + Intro: Similar to Paper 1 - discussion on inference rules and how to make explcit to end users. Again, like Paper 1 a comparison 
+but also a discussion on combining the methods.
+
+Good description at start of Intro of 'black-box' perception - does tally well with my proposal. also describes the creation of 'if-then' 
+rules that are understanable by humans. This study proposes a method to look at metrics to compare explainability of different if-then 
+rule extraction methods
+
+
+Conclusion: Much the same as Paper 1
+
+Suggestion: Read over quickly in companion with Paper 1 - concepts are interesting and aligned with my proposal.
+
+
+
+3. Classification of Explainable Artificial Intelligence Methods
+through Their Output Formats
+
+Abstract: Machine and deep learning have proven their utility to generate data-driven models with
+high accuracy and precision. However, their non-linear, complex structures are often difficult to
+interpret. Consequently, many scholars have developed a plethora of methods to explain their
+functioning and the logic of their inferences. Use Output methods to put these methods into a structure.
+
+Help select an approach based on the problem. The idea is to guide in the selection of an XAI approach for a given problem.
+
+Intro: Again with the 'black-box' description...and need for humans to understand reason for decision. The use of the output
+format in XAI method selection seems to have been a research gap in the past.
+
+AI practitioners find useful explanations that accurately
+reflect the logic implemented within a model. In this case, rule-based explanations represent
+a structured, compact yet comprehensible way to represent a set of logical instructions.
+On the other hand, end-users belonging to the lay public prefer reconstructive explanations
+that build a ‘story’, exposing which input features contribute the most to the model’s
+prediction.
+
+Conclusion: The term XAI groups together the scientific body of knowledge developed while
+searching for methods to explain the inner logic of either a learning algorithm, a model
+induced from it, or a knowledge-based approach for inference and it is now generally recognised
+as a core area of AI. (This might be a useful quote).
+
+There is a lack of consensus around what explainability actually is.
+
+Proposing an XAI framework with a universal outlook. the five
+dimensions of the XAI methods discussed in this literature review, namely the stage, scope,
+problem, input data and format of the explanation. Nice picture at the end.
+
+
+Suggestion: Definitely read. Try and find a recommendation in the part for CC Fraud; this could be a strong citation. 
+Find 'domain-specific' measure for me.
+
+
+
+
+4. Explainable Artificial Intelligence:
+Concepts, Applications, Research
+Challenges and Visions
+
+Abstract: The goal of this
+research is to articulate the big picture ideas and their role in advancing
+the development of XAI systems, to acknowledge their historical roots,
+and to emphasise the biggest challenges to moving forward.
+
+Mentions GDPR AI regulatory concerns - may have relevance for CC Fraud.
+
+Intro: Rework of 'black-box' descriptions. On
+the one hand, a large body of work have focused on building post-hoc methods
+mainly aimed at wrapping fully trained models, often referred to black-boxes,
+with an explainability layer [37]. A smaller body of research works, on the other
+hand, have concentrated on creating self-explainable and interpretable models
+by incorporating explainability mechanisms during their training, often referred
+to as the ante-hoc phase [7].
+
+Conclusion: Rewokr of the above.
+
+Suggestion: Looks like more of a hostical review - skim.
+
+
+
+
+
+5. A Global Model-Agnostic XAI method for the
+Automatic Formation of an Abstract Argumentation
+Framework and its Objective Evaluation
+
+Abstract: This research study explored a new way for the automatic
+formation of an argument-based representation of the inference process of a data-driven ML model to
+enhance its explainability by employing principles and techniques from computational argumentation
+
+Conclusion: The C4.5 algorithm usually
+generate bigger rulesets, but it is more correct and faithful to the model than the argument-based
+method. In conclusion, the proposed XAI method returns rulesets that are complete, simpler and
+smaller in terms of rule cardinality and length, thus more comprehensible. However, they are not
+as faithful to the model, correct and robust as the C4.5 DTs.
+
+Suggestion: Probably too specific in aim right now - skip for CA1
+
+
+
+
+
+6. Notions of explainability and evaluation approaches for explainable artificial
+intelligence
+
+Abstract: XAI approaches can be clustered into human-centred evaluations and evaluations
+with more objective metrics. However, despite the vast body of knowledge developed around the concept of
+explainability, there is not a general consensus among scholars on how an explanation should be defined, and
+how its validity and reliability assessed. Eventually, this review concludes by critically discussing these gaps
+and limitations, and it defines future research directions with explainability as the starting component of any
+artificial intelligent system.
+
+Covers much the same group as Paper 1 + 2; Intro re-does the whole 'Black-Box' thing.
+
+USEFUL Quote; "Article 22 of the General Data Protection Regulation (GDPR) sets out the rights
+and obligations of the use of automated decision making. Noticeably,
+it introduces the right of explanation by giving individuals the right to
+obtain an explanation of the inference(s) automatically produced by a
+model, confront and challenge an associated recommendation, particularly
+when it might negatively affect an individual legally, financially,
+mentally or physically. By approving this GDPR article, the European
+Parliament attempted to tackle the problem related to the propagation
+of potentially biased inferences to society, that a computational model
+might have learnt from biased and unbalanced data."
+
+
+Conclusion: This research effort has produced many
+definitions of explainability and identified numerous notions related
+to it, such as interpretability, understandability, comprehensibility and
+justifiability, just to mention a few. Coupled to these notions, different
+qualitative and quantitative measures have also been coined for
+their assessment.
+
+
+See diagram on 'explanators' + 'evaluation'.
+
+
+Note - avoid getting into phychology aspect of explainability, as decibed in Conclusion, don't want to go down that route.
+
+Suggestion: Skim to see if any particularly useful CC Fraud stuff emerges.
+
+
+
+
+
+
+
+
+
+7. A Novel Human-Centred Evaluation
+Approach and an Argument-Based
+Method for Explainable Artificial
+Intelligence
+
+Abstract: Similar to Paper 5 but describes a huma based experiment comparing argument-based representation to a DT one
+with two sub-groups.
+
+NOT an approach I want to follow.
+
+
+Intro; Descrines 'blac;-box' concept again, and then how augumentation is a viable XAI method
+
+Conclusion: This study proposed a novel XAI method to extract IF-THEN rules automatically
+from ML models and treat them as arguments in the form of premises
+to a conclusion.
+
+Suggestion: Human experimentation might be interesting, but pass on this  one for CA1
+
+
+
+
+
+
+
+
+
+
+
+
