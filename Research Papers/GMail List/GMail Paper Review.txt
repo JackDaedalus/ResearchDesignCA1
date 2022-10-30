@@ -1,0 +1,176 @@
+GMail Papers
+
+1. A Study of Credit Card Fraud Detection using 
+Adaptive Pattern Matching with Optimize 
+Itemset
+
+Abstract: Comparison piece of two approaches. Uses Brazil data we saw before.
+
+Conclusion: Shows how ADP-OI works well, given the imbalance problem.
+
+
+Suggestion: Nothing new here, other papers I already have did a better job of comparing algotithms. Reject.
+
+
+
+2. AN IMPLEMENTATION OF REAL AND 
+ACCURATE CLOUD BASED FRAUD 
+DETECTION SYSTEM BY USING DEEP AND 
+MACHINE LEARNING TECHNIQUES 
+
+Abstract: Cloud based use of NN for CC Fraud makes it seem interesting but English is terrible.
+
+Intro: Some blurb about real time application of FCNN
+
+Conclusion: MEtrics on experiments.
+
+
+Suggestion: Hard to take anythingfro the FCNN experiments. Reject.
+
+
+
+3. Analysis of the Effectiveness of Various Machine Learning, Artificial Neural Network 
+and Deep Learning Methods in Detecting Fraudulent Credit Card Transactions
+
+Abstract: General blurn. Another comparison paper - some 'standard' algotithms v two NN and two Deep Learning approaches.
+
+Intro: Broade literature review of previous papers comparing ML methods for CC Fraud detection. ULB dataset
+
+Conclusion: Experimental results showed that the 
+Deep Neural Network Classifier outperformed the other algorithms used in this study.
+
+Suggestion: Might be useful as a reference citation for performance of NN in CC Fraud. Not much else.
+
+
+
+4. Comparative Study Using Neural Networks
+Techniques for Credit Card Fraud Detection
+
+Abstract:  In this article, we conducting a comparative study of techniques based on neural networks
+
+Intro:  This study aims to evaluate different machine Learning techniques
+with regard to their efficacy in detecting credit card fraud, over the same dataset
+
+Conclusion: . Multilayer preceptron proved to be the best
+among the others for credit card fraud detection applied to our unique and generic
+dataset.
+
+Suggestion: This is a comparison piece involving just NN approaches. Existing papers cover this already. Reject.
+
+
+
+
+5. Credit Card Fraud Detection using Deep Learning 
+based on Auto-Encoder and Restricted Boltzmann 
+Machine
+
+Abstract:  This paper aims to 1) focus on fraud cases that cannot 
+be detected based on previous history or supervised learning,
+2) create a model of deep Auto-encoder and restricted Boltzmann 
+machine (RBM) that can reconstruct normal transactions to find 
+anomalies from normal patterns. 
+
+Intro: Uses ULB data. Focus is on Deep Learning and unsupervised techniques (anomaly detection), which is not the approach I am going with.
+
+Conclusion: Benchmarked against other methods these Deep Learning approaches worked wll.
+
+Suggestion: Maybe use this citatiron for the general risk of Fraud -  CyberSource. (2017, Nov. 29). 2017 North AMERCA edition, online 
+fraud benchmark report persistence is critical [Online]. Available: 
+http://www.cybersource.com/content/dam/cybersource/2017_Fraud_Ben
+chmark_Report.pdf?utm_campaign=NA_17Q3_2017%20Fraud%20Rep
+ort_Asset_1_All_Auto&utm_medium=email&utm_source=Eloqua 
+
+Maybe keep this paper as an example of unsupervised learning approaches to CC Fraud.
+
+
+
+
+6. Credit Card Fraud Detection using Deep 
+Learning based on Neural Network and 
+Auto-encoder 
+
+Abstract:  Similar in approach to Paper 5 - blurb followed by proposal to look at unsupervised DL techniques.
+
+Intro:  in this paper, 
+Neural Network and Auto-encoder is used to detect whether 
+the usual data set transaction is eligible as new fraud.
+
+Conclusion: Comparison of two NN unsupervised approaches.
+
+Suggestion: This might be a citation for general CC Fraud statistics; 
+1. F. Carcillo, Y. A. Le Borgne, O. Caelen, Y. Kessaci, F. Oblé, and G. 
+Bontempi, “Combining unsupervised and supervised learning in credit 
+card fraud detection,” Inf. Sci. (Ny)., no. xxxx, 2019, doi: 
+10.1016/j.ins.2019.05.042
+
+Not a well written paper. Reject.
+
+
+
+7. Detection of Fraud Transactions Using Recurrent 
+Neural Network during COVID-19
+
+Abstract: Covid-19 reference and.... Implementing 
+and applying Recurrent Neural Network on PaySim generated synthetic 
+financial dataset, deceptive transactions are identified. 
+
+Intro: Blurb and statment about how RNN showed strong metrics.
+
+Conclusion: Metrics but no baselinging against other methods.
+
+Suggestion: Reject. Might be useful as a citation for the use of synthetic data.
+
+
+
+
+8. Fraud detection in bank transaction
+with wrapper model and Harris
+water optimization-based deep
+recurrent neural network
+
+Abstract:  This paper aims to design the fraud detection mechanism using the
+proposed Harris water optimization-based deep recurrent neural network (HWO-based deep RNN).
+
+Intro:  The process includes a significant amount of feature engineering.
+
+Conclusion: Baselined metrics against more standard approaches shows benefit of RNN approach. A little like some of my existing papers.
+
+Suggestion: Like 7 - maybe a candidate for citation on benefit of RNN approach. Not much else.
+
+
+
+
+
+9. Thorough Review on Online Fraud Detection using Deep Learning
+
+Abstract:  2022 paper - this 
+survey study has been proposed to achieve the effective 
+analysis of the previous studies that have been performed on 
+the fraudulent transaction detection. T
+
+Intro:  This is a Literature Review.
+
+Conclusion: This is a Literature Review, lots to absorb.
+
+Suggestion: Short paeper - worth reading for CA2 to see if it sparks anything.
+
+
+
+
+
+
+10. Towards Artificial Intelligence Enabled Financial Crime Detection
+
+Abstract:  2021. We study and analyse the recent works done in financial crime
+detection and present a novel model to detect money laundering cases with minimum human intervention needs
+
+Intro:  As above.
+
+Conclusion:  used supervised learning in our classification models to predict suspicious transactions by 
+asking analysts to label the transactions,
+ and develop algorithms that learn from this process and starting to automatically
+label the data. We also applied the anomaly detection method as unsupervised learning 
+to detect unusual transactions. We then combined the two methods, which resulted in more precision 
+resulting in less human work
+
+Suggestion: Too general. Reject.
