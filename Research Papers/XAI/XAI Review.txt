@@ -30,7 +30,9 @@ rules that are understanable by humans. This study proposes a method to look at 
 rule extraction methods
 
 
-Conclusion: Much the same as Paper 1
+Conclusion: Much the same as Paper 1 - can be cited, therfore superior. In hindsight, this is a better paper.
+
+Goes into details on metrics that can be used for ranking 'if-then' rules.
 
 Suggestion: Read over quickly in companion with Paper 1 - concepts are interesting and aligned with my proposal.
 
@@ -55,6 +57,10 @@ a structured, compact yet comprehensible way to represent a set of logical instr
 On the other hand, end-users belonging to the lay public prefer reconstructive explanations
 that build a ‘story’, exposing which input features contribute the most to the model’s
 prediction.
+
+
+See Page 12 about rules-based explanations for NN, usually in the form of IF-THEN rules
+
 
 Conclusion: The term XAI groups together the scientific body of knowledge developed while
 searching for methods to explain the inner logic of either a learning algorithm, a model
@@ -189,6 +195,193 @@ Suggestion: Human experimentation might be interesting, but pass on this  one fo
 
 
 Reading Order - 3,1,2,6,4
+
+
+
+
+
+7a - A Unified Approach to Interpreting Model
+Predictions
+
+
+Abstract: A tension between accuracy and interpretability. Presenting a Unified framework for interpreting predictions - SHAP.
+SHAP assigns each feature an importance value for a particular prediction.
+
+The new class unifies six existing methods, notable becauseseveral recent methods in the class lack the proposed desirable properties.
+(Come back to this...)
+
+Intro: We propose new SHAP value estimation methods and demonstrate that they are better aligned
+with human intuition as measured by user studies and more effectually discriminate among model
+output classes than several existing methods
+
+
+Conclusion: We presented several different estimation methods for SHAP values, along with proofs and experiments
+showing that these values are desirable.
+
+
+Suggestion: Need to consider in context with other material, such as stuff on LIME.
+
+
+
+
+
+
+4 -  Peeking Inside the Black-Box: A Survey on
+Explainable Artificial Intelligence (XAI)
+
+Abstract: General Black-box idea - review of existing approaches.
+
+Intro: AI algorithms suffer from opacity,
+that it is difcult to get insight into their internal mechanism
+of work, especially Machine Learning (ML) algorithms.
+Which further compound the problem, because entrusting
+important decisions to a system that cannot explain itself
+presents obvious dangers.
+
+
+Technically, there is no standard and generally accepted
+denition of explainable AI.
+
+Even though a multitude of techniques is used in literature
+to enable global interpretability. Arguably, global model
+interpretability is hard to achieve in practice, especially for
+models that exceed a handful of parameters. Analogically to
+human, who focus effort on only part of the model in order
+to comprehend the whole of it, local interpretability can be
+more readily applicable.
+
+Another observation that should be noted is that in the
+reviewed literature, local explanations is the most used methods
+to generate explanations in DNNs.
+
+
+
+Conclusion: We presented in
+this paper a comprehensive background regarding this eld.
+
+
+Suggestion: Interesting but hard to generalise.
+
+
+
+
+
+5 - Explainable Machine
+Learning for Fraud
+Detection
+
+Abstract: We explore explainability methods in the
+domain of real-time fraud detection by investigating the
+selection of appropriate background data sets and runtime
+tradeoffs on supervised and unsupervised models.
+
+
+Intro: Re-run of black-box but also the need to met GDPR demands. 
+In this article, we present a case study
+that explores explanations with two
+of the most prominent methods, LIME
+and SHAP, to explain fraud detected by
+both supervised and unsupervised models.
+
+Attribution techniques explain a
+single-instance prediction by ranking the
+most important features that affected
+the generation of it.
+
+
+LIME17 approximates the predictions
+of the underlying black-box model
+by training local surrogate models to
+explain individual predictions. Essentially,
+LIME modifies a single data sample
+by tweaking the feature values in the
+simpler local model and observes the
+resulting impact on the output.
+
+
+The SHAP18 method explains the
+prediction of an instance by computing
+the contribution of each feature to the
+prediction using Shapley values based
+on coalition game theory. Intuitively,
+SHAP quantifies the importance of
+each feature by considering the effect
+each possible feature combination has
+on the output.
+
+
+
+Conclusion: For advanced machine learning
+algorithms to be successfully
+adopted in the financial domain,
+model explainability is necessary to
+address regulatory requirements and
+ensure trust in the results.
+
+We also found that, while SHAP
+gives more reliable explanations, LIME
+is faster. In real-time systems, it is not
+always feasible to explain everything.
+We must balance the deployability of the
+models and explanation methods with
+the time needed for a human and the
+likelihood of fraud. It may be beneficial
+to use a combination of both methods,
+where LIME is utilized to provide realtime
+explanations for fraud prevention,
+and SHAP is used to enable regulatory
+compliance and examine the model
+accuracy in retrospect
+
+
+
+
+
+Look up - 
+
+Methods for Fraud Detection:
+A. Thennakoon, C. Bhagyani, S.
+Premadasa, S. Mihiranga, and
+N. Kuruwitaarachchi, “Realtime
+credit card fraud detection
+using machine learning,” in Proc.
+2019 9th Int. Conf. Cloud Comput.,
+Data Science Eng. (Confluence),
+pp. 488–493. doi: 10.1109/
+
+
+LIME:
+M. T. Ribeiro, S. Singh, and C.
+Guestrin, “why should I trust
+you?” explaining the predictions
+of any classifier,” in Proc. 22nd
+ACM SIGKDD Int. Conf. Knowledge
+Discovery Data Mining, 2016, pp.
+1135–1144.
+
+
+SHAP: Have that one already - Lundberg + Lee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
