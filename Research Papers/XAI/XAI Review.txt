@@ -365,6 +365,26 @@ SHAP: Have that one already - Lundberg + Lee
 
 
 
+8a - “Why Should I Trust You?”
+Explaining the Predictions of Any Classifier
+
+
+Abstract: In this work, we propose LIME, a novel explanation tech-
+nique that explains the predictions of any classier in an in-
+terpretable and faithful manner, by learning an interpretable
+model locally around the prediction.
+
+Intro: Rework of Abstract.
+
+Conclusions: Our
+experiments demonstrated that explanations are useful for a
+variety of models in trust-related tasks in the text and image
+domains, with both expert and non-expert users: deciding
+between models, assessing trust, improving untrustworthy
+models, and getting insights into predictions.
+
+
+
 
 
 
